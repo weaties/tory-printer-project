@@ -64,11 +64,10 @@ new_url=''
 old_url=''
 
 while True: #tries again after exception is thrown
-	print "in the while loop"
 	try:
 		while True:
 			#Load media filtered by tag query
-			recent_tag_media = api.tag_recent_media(1,maxID,'like4like')
+			recent_tag_media = api.tag_recent_media(1,maxID,'like4like') # <---  your tag goes here
 			print "found a tag" 
 			print recent_tag_media	
 			#get URL and tell it to ignore posts older than it
