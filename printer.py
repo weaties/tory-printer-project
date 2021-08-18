@@ -8,6 +8,8 @@ import cups #for printing
 from xhtml2pdf import pisa #for generating PDFs from xhtml
 from subprocess import call #for sending command line items from python
 
+# This comment added in the web editor from github
+
 #filename for temp pdf
 filename = "/home/pi/tmp/tory-print.pdf"
 
