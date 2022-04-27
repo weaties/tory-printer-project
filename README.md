@@ -31,3 +31,7 @@ I followed these instructions to get a key http://help.dimsemenov.com/kb/wordpre
 adding a printer with cups http://www.howtogeek.com/169679/how-to-add-a-printer-to-your-raspberry-pi-or-other-linux-computer/
 
 * This also allowed us to connect to the cups interface over the local network on port 631
+
+
+
+simple change to play with PR's
